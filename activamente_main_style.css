@@ -8,3 +8,49 @@ body {
     font-size: 2em;
     margin-top: 20px;
 }
+
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+    width: 100px;
+    height: 30px;
+
+  }
+  
+  button {
+    top: 30px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 15px;
+    width: 100px;
+    height: 60px;
+  }
+  
+  #mensaje {
+    margin-top: 10px;
+    font-weight: bold;
+  }
